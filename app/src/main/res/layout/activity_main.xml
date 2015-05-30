@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView android:text="@string/header" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/tv_header"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/spotify_streamer"
+        android:id="@+id/b_spotify_streamer"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/tv_header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:background="@color/udacity_orange"
+        android:paddingLeft="25dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingRight="25dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scores_app"
+        android:id="@+id/b_scores_app"
+        android:layout_below="@+id/b_spotify_streamer"
+        android:layout_marginBottom="12dp"
+        android:layout_alignRight="@+id/b_spotify_streamer"
+        android:layout_alignEnd="@+id/b_spotify_streamer"
+        android:layout_alignLeft="@+id/b_spotify_streamer"
+        android:layout_alignStart="@+id/b_spotify_streamer"
+        android:background="@color/udacity_orange"
+        android:paddingLeft="25dp"
+        android:paddingTop="5dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/library_app"
+        android:id="@+id/b_library_app"
+        android:layout_below="@+id/b_scores_app"
+        android:layout_marginBottom="12dp"
+        android:layout_alignRight="@+id/b_scores_app"
+        android:layout_alignEnd="@+id/b_scores_app"
+        android:layout_alignLeft="@+id/b_scores_app"
+        android:layout_alignStart="@+id/b_scores_app"
+        android:background="@color/udacity_orange"
+        android:paddingLeft="25dp"
+        android:paddingTop="5dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/build_it_bigger"
+        android:id="@+id/b_build_it_bigger"
+        android:layout_below="@+id/b_library_app"
+        android:layout_marginBottom="12dp"
+        android:layout_alignRight="@+id/b_library_app"
+        android:layout_alignEnd="@+id/b_library_app"
+        android:layout_alignLeft="@+id/b_library_app"
+        android:layout_alignStart="@+id/b_library_app"
+        android:background="@color/udacity_orange"
+        android:paddingLeft="25dp"
+        android:paddingTop="5dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/xyz_reader"
+        android:id="@+id/b_xyz_reader"
+        android:layout_below="@+id/b_build_it_bigger"
+        android:layout_marginBottom="12dp"
+        android:layout_alignRight="@+id/b_build_it_bigger"
+        android:layout_alignEnd="@+id/b_build_it_bigger"
+        android:layout_alignLeft="@+id/b_build_it_bigger"
+        android:layout_alignStart="@+id/b_build_it_bigger"
+        android:background="@color/udacity_orange"
+        android:paddingLeft="25dp"
+        android:paddingTop="5dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/capstone"
+        android:id="@+id/b_capstone_my_own_app"
+        android:layout_below="@+id/b_xyz_reader"
+        android:layout_alignRight="@+id/b_xyz_reader"
+        android:layout_alignEnd="@+id/b_xyz_reader"
+        android:layout_alignLeft="@+id/b_xyz_reader"
+        android:layout_alignStart="@+id/b_xyz_reader"
+        android:background="@color/my_app_button_bg"
+        android:textColor="@color/white"
+        android:paddingLeft="25dp"
+        android:paddingTop="5dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="5dp" />
+
+</RelativeLayout>

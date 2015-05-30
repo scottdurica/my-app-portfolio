@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="udacity_orange">#F08C35</color>
+    <color name="my_app_button_bg">#FF0000</color>
+    <color name="white">#F7F7F7</color>
+
+
+</resources>
